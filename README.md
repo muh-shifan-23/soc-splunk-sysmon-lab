@@ -14,11 +14,11 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 
 Windows Endpoint
 └── Sysmon (Endpoint Telemetry)
-               └── Splunk Universal Forwarder
-                           └── Splunk Enterprise (SIEM)
-                                      ├── Detection Searches
-                                      ├── Investigation Queries
-                                      └── SOC Dashboards
+└── Splunk Universal Forwarder
+└── Splunk Enterprise (SIEM)
+├── Detection Searches
+├── Investigation Queries
+└── SOC Dashboards
 
 
 **🛠 Tools & Technologies**

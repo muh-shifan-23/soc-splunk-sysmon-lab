@@ -13,12 +13,13 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 **🧱 Architecture**
 ``
 Windows Endpoint
-└── Sysmon (Endpoint Telemetry)
-└── Splunk Universal Forwarder
-└── Splunk Enterprise (SIEM)
-├── Detection Searches
-├── Investigation Queries
-└── SOC Dashboards ``
+ └── Sysmon (Endpoint Telemetry)
+       └── Splunk Universal Forwarder
+             └── Splunk Enterprise (SIEM)
+                   ├── Detection Searches
+                   ├── Investigation Queries
+                   └── SOC Dashboards
+ ``
 
 
 **🛠 Tools & Technologies**

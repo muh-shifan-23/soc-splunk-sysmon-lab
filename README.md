@@ -12,16 +12,14 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 
 **🧱 Architecture**
 
-Windows Endpoint
- └──
-     Sysmon (Endpoint Telemetry)
-       └──
-            Splunk Universal Forwarder
-                  └── 
-                       Splunk Enterprise (SIEM)
-                           ├── Detection Searches
-                           ├── Investigation Queries
-                           └── SOC Dashboards
+**Windows Endpoint
+  └── Sysmon (Endpoint Telemetry)
+        └── Splunk Universal Forwarder
+              └── Splunk Enterprise (SIEM)
+                   ├── Detection Searches
+                   ├── Investigation Queries
+                   └── SOC Dashboards **
+
 
 **🛠 Tools & Technologies**
 
@@ -36,8 +34,8 @@ Windows 10 / 11
 PowerShell
 
 SPL (Search Processing Language)
-**
-🎯 Objectives**
+
+**🎯 Objectives**
 
 Collect detailed Windows endpoint telemetry
 
@@ -50,6 +48,7 @@ Build dashboards for continuous monitoring
 Simulate real SOC analyst workflows
 
 **⚙️ Lab Setup**
+
 1️⃣ Splunk Enterprise (SIEM)
 
 Installed on a Linux VM

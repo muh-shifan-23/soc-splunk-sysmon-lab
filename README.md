@@ -11,6 +11,7 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 ⚠️ Alert automation and SOAR are intentionally excluded due to Splunk Free license limitations. Detection logic and investigation workflows are emphasized instead.
 
 **🧱 Architecture**
+
 ``
 Windows Endpoint
  └── Sysmon (Endpoint Telemetry)

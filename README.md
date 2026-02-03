@@ -1,6 +1,7 @@
 ## **🔐 SOC Automated Detection Lab**
 
 **SIEM-Based Endpoint Threat Detection using Splunk & Sysmon**
+
 **📌 Project Overview**
 
 This project demonstrates the design and implementation of a Security Operations Center (SOC) detection lab using Splunk Enterprise as a SIEM and Sysmon for high-fidelity Windows endpoint telemetry.
@@ -12,12 +13,15 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 **🧱 Architecture**
 
 Windows Endpoint
- └── Sysmon (Endpoint Telemetry)
-       └── Splunk Universal Forwarder
-             └── Splunk Enterprise (SIEM)
-                   ├── Detection Searches
-                   ├── Investigation Queries
-                   └── SOC Dashboards
+ └──
+     Sysmon (Endpoint Telemetry)
+       └──
+            Splunk Universal Forwarder
+                  └── 
+                       Splunk Enterprise (SIEM)
+                           ├── Detection Searches
+                           ├── Investigation Queries
+                           └── SOC Dashboards
 
 **🛠 Tools & Technologies**
 

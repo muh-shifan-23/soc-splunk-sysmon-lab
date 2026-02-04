@@ -12,7 +12,7 @@ The lab focuses on log ingestion, threat detection, investigation workflows, and
 
 **🧱 Architecture**
 
-``
+```text
 Windows Endpoint
  └── Sysmon (Endpoint Telemetry)
        └── Splunk Universal Forwarder
@@ -20,7 +20,7 @@ Windows Endpoint
                    ├── Detection Searches
                    ├── Investigation Queries
                    └── SOC Dashboards
- ``
+```
 
 
 **🛠 Tools & Technologies**
@@ -68,11 +68,13 @@ Sysmon Operational logs enabled
 
 Verified via Event Viewer:
 
+```text
 Applications and Services Logs
  └─ Microsoft
     └─ Windows
        └─ Sysmon
           └─ Operational
+```
 
 Splunk Universal Forwarder
 
